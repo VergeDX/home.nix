@@ -18,4 +18,7 @@
   # the Home Manager release notes for a list of state version
   # changes in each release.
   home.stateVersion = "21.05";
+
+  # https://github.com/nix-community/home-manager#usage
+  home.packages = [ pkgs.nixpkgs-fmt ];
 }
