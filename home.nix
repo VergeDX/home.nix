@@ -101,6 +101,15 @@
 
     # Flutter (via Homebrew) needs this.
     pkgs.cocoapods
+
+    pkgs.gimp
+    pkgs.pkgs.jd-gui
+    pkgs.ngrok
+    pkgs.powershell
+    pkgs.stm32cubemx
+    pkgs.remotebox
+    pkgs.vscode
+    pkgs.wireshark
   ];
 
   programs.gpg.enable = true;
